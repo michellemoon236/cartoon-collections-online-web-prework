@@ -18,7 +18,8 @@ end
 
 def find_the_cheese (list)
 
-  list.find do |cheese|
+  list.find do |word|
+    word == "cheddar" || word == "gouda" || word == "camembert"
       cheese_types = ["cheddar", "gouda", "camembert"]
       cheese.
 end
